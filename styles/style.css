@@ -122,9 +122,10 @@ input{
 }
 
 .content .content-right img{
-    width: 400px;
+    width: 500px;
     height: auto;
     position: relative;
+    left: -100px;
     user-select: none;
     animation: rotate 10s linear infinite;
 }
@@ -222,4 +223,13 @@ input{
     font-size: 20px;
     cursor: pointer;
 
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: #1c7eff;
 }
