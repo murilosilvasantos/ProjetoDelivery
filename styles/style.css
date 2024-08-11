@@ -141,14 +141,14 @@ input{
 .category{
     width: 100%;
     display: flex;
-    margin-bottom: 50%;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
 .category .list-items{
     width: 90%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .category .list-items h3{
@@ -174,10 +174,15 @@ input{
     outline: 2px solid #faad96;
 }
 
+.category .card-list .card:hover{
+    bottom: 10px;
+    box-shadow: 2px 5px 5px rgb(102, 102, 102);
+}
+
 .category .card-list .card img{
     width: 100px;
     height: auto;
-    bottom: 260px;
+    bottom: 220px;
     left: 50px;
     object-fit: cover;
     object-position: center;
@@ -201,5 +206,20 @@ input{
 .category .card .desc-food{
     font-size: 13px;
     text-align: center;
-    
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.category .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category .card .price span .plus-icon{
+    color: #ff511c;
+    font-size: 20px;
+    cursor: pointer;
+
 }
